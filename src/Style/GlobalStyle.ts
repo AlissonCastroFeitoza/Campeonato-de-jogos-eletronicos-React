@@ -18,6 +18,7 @@ ul {
 }
 
 a {
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     outline: none;
 }

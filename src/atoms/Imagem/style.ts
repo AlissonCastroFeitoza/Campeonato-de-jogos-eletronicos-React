@@ -1,0 +1,8 @@
+import styled from 'styled-components'
+
+export const Imagem = styled.div  `
+  img{
+    height: 350px;
+  }
+ 
+`
