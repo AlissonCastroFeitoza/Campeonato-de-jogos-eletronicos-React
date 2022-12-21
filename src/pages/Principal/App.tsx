@@ -11,7 +11,7 @@ function App() {
     <div className="App">
      <Header/>
 
-    <C.HomePrincipal>
+    <C.HomePrincipal id="Sobre">
       <div className="estrutura">
           <h4>Bem vindo ao GTX eSports</h4>  
           <h1>O evento mais esperado do ano</h1>
@@ -22,7 +22,7 @@ function App() {
         <Imagem/>   
     </C.HomePrincipal>
 
-    <C.HomeSecundario>
+    <C.HomeSecundario id="Data">
     <Imagem2/>
     <div className="estrutura">
           
@@ -34,7 +34,7 @@ function App() {
       </div>
     </C.HomeSecundario>
 
-    <C.HomePrincipal>
+    <C.HomePrincipal id="Inscricao">
     <div className="estrutura">
           <h4>Se Inscreva agora mesmo</h4>  
           <h1>As vagas são limitadas</h1>

@@ -34,15 +34,26 @@ export const BoxForm = styled.div `
 `
 
 export const DivInput = styled.div `
-  position: relative;
 
+ 
   label {
     display: flex;
     font-size: 1em;
     gap: 10;
   }
+  
+  input {
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size:0.9rem;
+    box-shadow: 1px 1px 6px #0000001c;
+    padding: 0.6rem 1.2rem;
+  }
 
-  input, select {
+  select {
     margin-bottom: 12px;
     width: 100%;
     border: none;
@@ -59,7 +70,7 @@ export const Botao = styled.form `
 input[type="submit"] {
     color: #16D833;
     font-size: 1em;
-    font-weight: 800;
+    font-weight: 700;
     border:1px solid rgba(22, 216, 51, 0.4);
     border-radius: 10px;
     margin-top: 2rem;

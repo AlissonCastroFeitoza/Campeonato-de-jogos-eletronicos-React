@@ -2,9 +2,9 @@ import * as S from './style'
 const Menu = () => {
     return (
        <S.EstiloLista>
-           <S.EstiloItem>Sobre</S.EstiloItem>
-           <S.EstiloItem>Data</S.EstiloItem>
-           <S.EstiloItem>Inscrição do Evento</S.EstiloItem>
+          <a href="#Sobre"><S.EstiloItem>Sobre</S.EstiloItem></a> 
+          <a href="#Data"><S.EstiloItem>Data</S.EstiloItem></a>
+          <a href="#Inscricao"><S.EstiloItem>Inscrição do Evento</S.EstiloItem></a>
        </S.EstiloLista>
     )
 }
