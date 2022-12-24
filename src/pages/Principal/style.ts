@@ -32,6 +32,62 @@ export const HomePrincipal = styled.section `
     .estrutura {
         width: 37rem;
     }
+    
+    @media screen and (max-width:767.98px) {
+        width: 100%;
+        height: 100%;
+        padding: 150px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+    
+       .estrutura {
+         width: 100%;
+       } 
+
+     h4 {
+        font-size: 25px;
+        flex-direction: column;
+     }
+
+     
+     h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+     }
+
+     p {
+        font-size: 20px;
+     }
+    }
+    
+    @media screen and (max-width:991.98px) { 
+        width: 100%;
+        height: 100%;
+        padding: 150px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+
+        h4 {
+         font-size: 25px;
+        }
+
+        h1 {
+         font-size: 2.5rem;
+         line-height: 3rem;
+        }
+
+        p {
+         font-size: 20px;
+        }
+         
+        img {
+         object-fit: contain;
+        }
+    }
 `
 
 export const HomeSecundario = styled.section `
@@ -42,6 +98,7 @@ export const HomeSecundario = styled.section `
     justify-content: space-between;
     padding: 0px 10%;
     background-color: black;
+    
 
     h4 {
     font-size: 1.5rem;
@@ -69,6 +126,61 @@ export const HomeSecundario = styled.section `
     .estrutura {
         width: 37rem;
     }
+
+    @media screen and (max-width:767.98px) {
+       width: 100%;
+        height: 100%;
+        padding: 150px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+    
+        .estrutura {
+         width: 100%;
+       } 
+
+     h4 {
+        font-size: 25px;
+        flex-direction: column;
+     }
+
+     h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+     }
+
+     p {
+        font-size: 20px;
+     }
+    }
+    
+    @media screen and (max-width:991.98px) { 
+        width: 100%;
+        height: 100%;
+        padding: 150px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+
+        h4 {
+         font-size: 25px;
+        }
+
+        h1 {
+         font-size: 2.5rem;
+         line-height: 3rem;
+        }
+
+        p {
+         font-size: 20px;
+        }
+         
+        img {
+         object-fit: contain;
+        }
+      }
 `
 
 

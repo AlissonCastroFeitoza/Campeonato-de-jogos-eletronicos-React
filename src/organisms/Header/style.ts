@@ -10,5 +10,12 @@ export const Box = styled.div `
     width: 100%;
     transition: all 0.5s;
     position: fixed;
-    z-index: 5;
+    z-index: 5;    
+
+    @media screen and (max-width:767.98px) {
+    padding: 18px 20px;
+}
+    @media screen and (max-width:991.98px) {
+    padding: 18px 20px;
+}
 `

@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
      <Header/>
-
+     
+     <div className="responsividade">
     <C.HomePrincipal id="Sobre">
       <div className="estrutura">
           <h4>Bem vindo ao GTX eSports</h4>  
@@ -19,10 +20,13 @@ function App() {
           <Button/>
         
       </div> 
-        <Imagem/>   
+        <Imagem/>  
+      
     </C.HomePrincipal>
+    </div>
 
     <C.HomeSecundario id="Data">
+      
     <Imagem2/>
     <div className="estrutura">
           
