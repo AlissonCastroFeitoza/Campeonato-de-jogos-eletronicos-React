@@ -88,6 +88,11 @@ export const HomePrincipal = styled.section `
          object-fit: contain;
         }
     }
+    @media screen and (max-width:1024.98px) { 
+         .estrutura {
+            margin-top: 80px;
+         }
+      } 
 `
 
 export const HomeSecundario = styled.section `
@@ -181,6 +186,12 @@ export const HomeSecundario = styled.section `
          object-fit: contain;
         }
       }
+
+      @media screen and (max-width:1024.98px) { 
+         .estrutura {
+            margin-left: 35px;
+         }
+      } 
 `
 
 

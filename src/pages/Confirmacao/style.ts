@@ -46,6 +46,12 @@ export const HomePrincipal = styled.div `
           text-align: center;
         }
     }
+    
+    @media screen and (max-width:280.90px) {
+        .card {
+            width: 100%;
+        }
+    }
 
     @media screen and (max-width:767.98px) {
         width: 100%;

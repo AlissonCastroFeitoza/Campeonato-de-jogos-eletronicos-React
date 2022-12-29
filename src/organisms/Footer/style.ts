@@ -18,4 +18,19 @@ export const footer = styled.footer `
     color: white;
     font-size: 15px;
  }
+
+ @media screen and (max-width:767.98px) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ }
+
+ @media screen and (max-width:912px) {
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ }
+ 
 `
