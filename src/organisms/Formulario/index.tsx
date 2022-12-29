@@ -1,5 +1,5 @@
 import * as C from './style'
-
+import {Link} from 'react-router-dom'
 const Formulario = () => {
   return (
      <C.BoxForm>
@@ -37,10 +37,12 @@ const Formulario = () => {
         <label>Senha:</label>
         <input type="senha" name="senha" id="senha" placeholder="Digite sua senha" required/>
         </C.DivInput>
-         
+        
+        <Link to='/confirmacao'>
          <C.Botao>
          <input type="submit" value="Inscrever-se"/>
          </C.Botao>
+         </Link>
         
         </form>
      </C.BoxForm>

@@ -1,6 +1,5 @@
 import Button from "../../atoms/Button";
-import Imagem from "../../atoms/Imagem";
-import Imagem2 from "../../atoms/Imagem2";
+import Imagem, { ImagemDois } from "../../atoms/Imagem";
 import Footer from "../../organisms/Footer";
 import Formulario from "../../organisms/Formulario";
 import Header from "../../organisms/Header";
@@ -27,12 +26,12 @@ function App() {
 
     <C.HomeSecundario id="Data">
       
-    <Imagem2/>
+    <ImagemDois/>
     <div className="estrutura">
           
           <h4>Quando ocorrerá o GTX eSports ?</h4>  
           <h1>Sua diversão está próxima !</h1>
-          <p>O campeonato de jogos eletrônicos irá ocorrer no dia 27/12/2022 e conta com jogos exclusivos !</p>   
+          <p>O campeonato de jogos eletrônicos irá ocorrer no dia 27/12/2023 e conta com jogos exclusivos !</p>   
           <Button/>
          
       </div>

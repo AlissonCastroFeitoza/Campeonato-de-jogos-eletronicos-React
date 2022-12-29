@@ -13,3 +13,12 @@ const Header = () => {
 } 
 
 export default Header
+
+export const HeaderSecundario = () => {
+  return (
+    <C.BoxSecundario>
+      <Logo/>
+    </C.BoxSecundario>
+  )
+}
+
